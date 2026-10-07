@@ -1,0 +1,141 @@
+﻿city_id,city,dataset_id,relationship,filter_notes,checked_on
+CITY-001,Madrid,MAD-AIR,city_specific,,2026-10-07
+CITY-001,Madrid,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-002,Barcelona,BCN-TRANSPORT,city_specific,,2026-10-07
+CITY-002,Barcelona,BCN-PORT,city_specific,,2026-10-07
+CITY-002,Barcelona,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-002,Barcelona,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-003,Valencia,VLC-GREEN,city_specific,,2026-10-07
+CITY-003,Valencia,VAL-SCHOOLS,regional_filter_required,"Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",2026-10-07
+CITY-003,Valencia,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-004,Zaragoza,ZGZ-MONUMENTS,city_specific,,2026-10-07
+CITY-004,Zaragoza,ZGZ-EMISSIONS,city_specific,,2026-10-07
+CITY-004,Zaragoza,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-005,Sevilla,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-005,Sevilla,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-006,Málaga,MAL-BINS,city_specific,,2026-10-07
+CITY-006,Málaga,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-006,Málaga,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-007,Murcia,MUR-VISITORS,city_specific,,2026-10-07
+CITY-007,Murcia,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-008,Palma,BAL-GTFS,regional_filter_required,"Select Palma stops and related routes/trips; regional interurban network, not a substitute for the entire EMT Palma city network.",2026-10-07
+CITY-008,Palma,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-009,Las Palmas de Gran Canaria,LPA-STOPS,city_specific,,2026-10-07
+CITY-009,Las Palmas de Gran Canaria,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-010,Alicante,VAL-SCHOOLS,regional_filter_required,"Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",2026-10-07
+CITY-010,Alicante,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-011,Bilbao,BIO-PARCELS,city_specific,,2026-10-07
+CITY-011,Bilbao,EUS-SPORT,regional_filter_required,Select municipality or spatially intersect facilities with the municipality boundary.,2026-10-07
+CITY-011,Bilbao,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-012,Córdoba,COR-CRASHES,city_specific,,2026-10-07
+CITY-012,Córdoba,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-012,Córdoba,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-013,Valladolid,CYL-MONUMENTS,regional_filter_required,Filter the published municipality/locality and province fields; inspect the schema first.,2026-10-07
+CITY-013,Valladolid,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-014,Vigo,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-015,L’Hospitalet de Llobregat,HOS-BICIBOX,city_specific,,2026-10-07
+CITY-015,L’Hospitalet de Llobregat,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-015,L’Hospitalet de Llobregat,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-016,Gijón,GIJ-AIR,city_specific,,2026-10-07
+CITY-016,Gijón,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-017,Vitoria-Gasteiz,VIT-CONTRACTS,city_specific,,2026-10-07
+CITY-017,Vitoria-Gasteiz,EUS-SPORT,regional_filter_required,Select municipality or spatially intersect facilities with the municipality boundary.,2026-10-07
+CITY-017,Vitoria-Gasteiz,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-018,A Coruña,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-019,Elche,VAL-SCHOOLS,regional_filter_required,"Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",2026-10-07
+CITY-019,Elche,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-020,Granada,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-020,Granada,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-021,Terrassa,TER-RESTAURANTS,city_specific,,2026-10-07
+CITY-021,Terrassa,TER-BUDGET,city_specific,,2026-10-07
+CITY-021,Terrassa,TER-BOUNDARIES,city_specific,,2026-10-07
+CITY-021,Terrassa,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-021,Terrassa,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-022,Badalona,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-022,Badalona,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-023,Sabadell,SAB-POP,city_specific,,2026-10-07
+CITY-023,Sabadell,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-023,Sabadell,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-024,Oviedo,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-025,Cartagena,CAR-SPORT,city_specific,,2026-10-07
+CITY-025,Cartagena,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-026,Jerez de la Frontera,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-026,Jerez de la Frontera,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-027,Pamplona,PAM-BUDGET,city_specific,,2026-10-07
+CITY-027,Pamplona,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-028,Móstoles,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-029,Almería,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-029,Almería,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-030,Santa Cruz de Tenerife,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-031,Alcalá de Henares,ALC-PARKING,city_specific,,2026-10-07
+CITY-031,Alcalá de Henares,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-032,Leganés,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-033,Getafe,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-034,Fuenlabrada,FUE-WATER,city_specific,,2026-10-07
+CITY-034,Fuenlabrada,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-035,Donostia/San Sebastián,DON-ADDRESSES,city_specific,,2026-10-07
+CITY-035,Donostia/San Sebastián,EUS-SPORT,regional_filter_required,Select municipality or spatially intersect facilities with the municipality boundary.,2026-10-07
+CITY-035,Donostia/San Sebastián,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-036,Castelló de la Plana,VAL-SCHOOLS,regional_filter_required,"Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",2026-10-07
+CITY-036,Castelló de la Plana,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-037,Burgos,CYL-MONUMENTS,regional_filter_required,Filter the published municipality/locality and province fields; inspect the schema first.,2026-10-07
+CITY-037,Burgos,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-038,Albacete,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-039,Santander,SAN-GTFS,city_specific,,2026-10-07
+CITY-039,Santander,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-040,Alcorcón,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-041,San Cristóbal de La Laguna,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-042,Marbella,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-042,Marbella,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-043,Logroño,LOG-METEO,city_specific,,2026-10-07
+CITY-043,Logroño,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-044,Badajoz,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-045,Lleida,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-045,Lleida,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-046,Huelva,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-046,Huelva,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-047,Salamanca,CYL-MONUMENTS,regional_filter_required,Filter the published municipality/locality and province fields; inspect the schema first.,2026-10-07
+CITY-047,Salamanca,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-048,Tarragona,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-048,Tarragona,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-049,Dos Hermanas,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-049,Dos Hermanas,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-050,Torrejón de Ardoz,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-051,Mataró,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-051,Mataró,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-052,Parla,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-053,León,CYL-MONUMENTS,regional_filter_required,Filter the published municipality/locality and province fields; inspect the schema first.,2026-10-07
+CITY-053,León,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-054,Alcobendas,ALB-METRO,city_specific,,2026-10-07
+CITY-054,Alcobendas,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-055,Algeciras,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-055,Algeciras,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-056,Santa Coloma de Gramenet,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-056,Santa Coloma de Gramenet,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-057,Cádiz,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-057,Cádiz,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-058,Jaén,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-058,Jaén,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-059,Reus,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-059,Reus,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-060,Roquetas de Mar,AND-SPORT,regional_filter_required,Filter municipio and provincia; confirm that the selected city has records.,2026-10-07
+CITY-060,Roquetas de Mar,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-061,Girona,GIR-PERMITS,city_specific,,2026-10-07
+CITY-061,Girona,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-061,Girona,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-062,Ourense,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-063,Torrevieja,VAL-SCHOOLS,regional_filter_required,"Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",2026-10-07
+CITY-063,Torrevieja,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-064,Telde,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-065,Barakaldo,EUS-SPORT,regional_filter_required,Select municipality or spatially intersect facilities with the municipality boundary.,2026-10-07
+CITY-065,Barakaldo,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-066,Lugo,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-067,Santiago de Compostela,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-068,Rivas-Vaciamadrid,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-069,Sant Cugat del Vallès,CAT-BUDGET,regional_filter_required,Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.,2026-10-07
+CITY-069,Sant Cugat del Vallès,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-070,Lorca,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-071,Toledo,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-072,Mérida,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-073,Ceuta,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07
+CITY-074,Melilla,ES-POP,national_baseline,Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.,2026-10-07

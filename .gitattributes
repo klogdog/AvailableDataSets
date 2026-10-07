@@ -1,0 +1,3 @@
+# Preserve source CSV bytes, including Excel-friendly BOM and CRLF endings.
+*.csv -text whitespace=cr-at-eol
+*.xlsx binary

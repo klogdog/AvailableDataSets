@@ -1,0 +1,3978 @@
+{
+  "metadata": {
+    "title": "Spain city open data catalog",
+    "checked_on": "2026-10-07",
+    "scope": "74 selected large municipalities and regional or autonomous-city capitals; editorial coverage list, not a population ranking or an exhaustive catalog of all Spanish municipalities.",
+    "geography": "Municipalities, not metropolitan areas. Regional entries require filtering and do not certify a nonempty result for every listed city.",
+    "validation": "Publisher pages, catalog entries and documented formats were reviewed. Some resource content types were observed, but no underlying source dataset was downloaded and parsed end to end. Observed HTTP errors and untested/documentation-derived API URLs are flagged.",
+    "units": "Dataset rows count distinct dataset families, not every annual file, format or municipality extract.",
+    "stats": {
+      "cities": 74,
+      "datasets": 34,
+      "city_dataset_links": 140,
+      "discovery_sources": 7,
+      "coverage": {
+        "city_specific_dataset_identified": 23,
+        "regional_dataset_requires_city_filter": 28,
+        "national_baseline_only": 23
+      },
+      "datasets_with_direct_download_url": 18,
+      "datasets_with_api_url": 5,
+      "datasets_with_csv": 28,
+      "dataset_resource_statuses": {
+        "documented_api_not_payload_tested": 5,
+        "csv_response_observed_not_parsed": 8,
+        "access_issue_alternative_exports_listed": 1,
+        "api_link_listed_not_payload_tested": 1,
+        "zip_response_observed_not_parsed": 1,
+        "download_link_observed_not_payload_tested": 6,
+        "format_verified_export_requires_portal": 1,
+        "advertised_csv_returned_404": 1,
+        "landing_and_format_verified": 4,
+        "catalog_listing_only": 4,
+        "file_response_observed_not_parsed": 1,
+        "advertised_csv_returned_403": 1
+      },
+      "datasets_with_explicit_license": 13,
+      "portal_links_or_directory_leads": 39
+    }
+  },
+  "cities": [
+    {
+      "city_id": "CITY-001",
+      "city": "Madrid",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "MAD-AIR",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "MAD-AIR"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.madrid.es/dataset",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://datos.madrid.es/dataset",
+        "https://datos.madrid.es/dataset/201200-0-calidad-aire-horario",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-002",
+      "city": "Barcelona",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "BCN-TRANSPORT",
+        "BCN-PORT",
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "BCN-TRANSPORT",
+        "BCN-PORT"
+      ],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://portaldades.ajuntament.barcelona.cat/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats. Current portal uses JavaScript for some downloads.",
+      "source_urls": [
+        "https://portaldades.ajuntament.barcelona.cat/",
+        "https://portaldades.ajuntament.barcelona.cat/microdades/8b5b8edb-28fd-4eb2-a936-94a116a1b5ad",
+        "https://datos.gob.es/es/catalogo/ea0001302-escalas-salidas1",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-003",
+      "city": "Valencia",
+      "autonomous_community": "Comunitat Valenciana",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "VLC-GREEN",
+        "VAL-SCHOOLS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "VLC-GREEN"
+      ],
+      "regional_dataset_ids": [
+        "VAL-SCHOOLS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://opendata.vlci.valencia.es/dataset/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats. Use the current CKAN catalog; do not assume legacy Opendatasoft export paths still apply.",
+      "source_urls": [
+        "https://opendata.vlci.valencia.es/dataset/",
+        "https://opendata.vlci.valencia.es/dataset/gardens-and-green-spaces",
+        "https://dadesobertes.gva.es/es/dataset/edu-centros",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-004",
+      "city": "Zaragoza",
+      "autonomous_community": "Aragón",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "ZGZ-MONUMENTS",
+        "ZGZ-EMISSIONS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "ZGZ-MONUMENTS",
+        "ZGZ-EMISSIONS"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-005",
+      "city": "Sevilla",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://www.urbanismosevilla.org/areas/sostenibilidad-innovacion/ide/carta-de-servicios/informacion-urbana/datos-abiertos/descarga-de-datos",
+      "portal_verification": "official_listing_access_issue",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided. Planning authority offers CSV / GIS downloads; page returned a gateway error during checking.",
+      "source_urls": [
+        "https://www.urbanismosevilla.org/areas/sostenibilidad-innovacion/ide/carta-de-servicios/informacion-urbana/datos-abiertos/descarga-de-datos",
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-006",
+      "city": "Málaga",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "MAL-BINS",
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "MAL-BINS"
+      ],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datosabiertos.malaga.eu/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://datosabiertos.malaga.eu/",
+        "https://datosabiertos.malaga.eu/dataset/contenedores-para-residuos-solidos-urbanos/resource/8a7f9d80-c7d0-45de-8583-f3fb91eb1928",
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-007",
+      "city": "Murcia",
+      "autonomous_community": "Región de Murcia",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "MUR-VISITORS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "MUR-VISITORS"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://transparencia.mimurcia.murcia.es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://transparencia.mimurcia.murcia.es/",
+        "https://transparencia.mimurcia.murcia.es/ckan-dataset/ee7b3bed-2adf-4fab-932c-ef132fbc6b06",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-008",
+      "city": "Palma",
+      "autonomous_community": "Illes Balears",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "BAL-GTFS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "BAL-GTFS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.tib.org/es/sobre-ctm/portal-de-transparencia/datos-abiertos",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-009",
+      "city": "Las Palmas de Gran Canaria",
+      "autonomous_community": "Canarias",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "LPA-STOPS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "LPA-STOPS"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datosabiertos.laspalmasgc.es/data/",
+      "portal_verification": "official_listing_access_issue",
+      "notes": "Only catalog-level local dataset listings verified; exports need follow-up. Catalog lists CSV/JSON transit and parking data; direct page access returned a gateway error.",
+      "source_urls": [
+        "https://datosabiertos.laspalmasgc.es/data/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-010",
+      "city": "Alicante",
+      "autonomous_community": "Comunitat Valenciana",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "VAL-SCHOOLS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "VAL-SCHOOLS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datosabiertos.alicante.es/?q=inicio",
+      "portal_verification": "official_portal_observed",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://datosabiertos.alicante.es/?q=inicio",
+        "https://dadesobertes.gva.es/es/dataset/edu-centros",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-011",
+      "city": "Bilbao",
+      "autonomous_community": "Euskadi",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "BIO-PARCELS",
+        "EUS-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "BIO-PARCELS"
+      ],
+      "regional_dataset_ids": [
+        "EUS-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://www.bilbao.eus/opendata/es/inicio",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://www.bilbao.eus/opendata/es/inicio",
+        "https://www.opendatabizkaia.eus/es/catalogo/parcelario-catastral-bilbao",
+        "https://opendata.euskadi.eus/catalogo/-/censo-de-instalaciones-deportivas-de-euskadi/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-012",
+      "city": "Córdoba",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "COR-CRASHES",
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "COR-CRASHES"
+      ],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datosabiertos.cordoba.es/ckan/dataset",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://datosabiertos.cordoba.es/ckan/dataset",
+        "https://datosabiertos.cordoba.es/ckan/dataset/accidentes-de-trafico",
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-013",
+      "city": "Valladolid",
+      "autonomous_community": "Castilla y León",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CYL-MONUMENTS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CYL-MONUMENTS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://analisis.datosabiertos.jcyl.es/explore/dataset/relacion-monumentos/information/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-014",
+      "city": "Vigo",
+      "autonomous_community": "Galicia",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.vigo.org/es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists. Catalog link points to https://datos-ckan.vigo.org/; catalog access timed out.",
+      "source_urls": [
+        "https://datos.vigo.org/es/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-015",
+      "city": "L’Hospitalet de Llobregat",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "HOS-BICIBOX",
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "HOS-BICIBOX"
+      ],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://seu-e.cat/ca/web/hospitaletdellobregat/dades-obertes",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://seu-e.cat/ca/web/hospitaletdellobregat/dades-obertes",
+        "https://seu-e.cat/ca/web/hospitaletdellobregat/dades-obertes/-/dadesobertes/dataset/e1bcf33c-3228-4b65-af1b-f0a0d017ef84",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-016",
+      "city": "Gijón",
+      "autonomous_community": "Principado de Asturias",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "GIJ-AIR",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "GIJ-AIR"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.gijon.es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Only catalog-level local dataset listings verified; exports need follow-up.",
+      "source_urls": [
+        "https://datos.gijon.es/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-017",
+      "city": "Vitoria-Gasteiz",
+      "autonomous_community": "Euskadi",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "VIT-CONTRACTS",
+        "EUS-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "VIT-CONTRACTS"
+      ],
+      "regional_dataset_ids": [
+        "EUS-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/portada?idioma=es&lang=es&locale=es",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://www.vitoria-gasteiz.org/j34-01w/catalogo/portada?idioma=es&lang=es&locale=es",
+        "https://www.vitoria-gasteiz.org/wb021/was/contenidoAction.do?idioma=es&uid=app_j34_0009",
+        "https://opendata.euskadi.eus/catalogo/-/censo-de-instalaciones-deportivas-de-euskadi/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-018",
+      "city": "A Coruña",
+      "autonomous_community": "Galicia",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.coruna.gal/es/",
+      "portal_verification": "official_listing_access_issue",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists. Catalog returned 403 in the research tool.",
+      "source_urls": [
+        "https://datos.gob.es/es/iniciativas/coruna-smart-city-open-data",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-019",
+      "city": "Elche",
+      "autonomous_community": "Comunitat Valenciana",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "VAL-SCHOOLS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "VAL-SCHOOLS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://dadesobertes.gva.es/es/dataset/edu-centros",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-020",
+      "city": "Granada",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-021",
+      "city": "Terrassa",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "TER-RESTAURANTS",
+        "TER-BUDGET",
+        "TER-BOUNDARIES",
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "TER-RESTAURANTS",
+        "TER-BUDGET",
+        "TER-BOUNDARIES"
+      ],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://opendata.terrassa.cat/es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://opendata.terrassa.cat/es/",
+        "https://opendata.terrassa.cat/dataset/restaurants",
+        "https://pressupostos.terrassa.cat/descarga-datos",
+        "https://emap.terrassa.cat/geoPortal/?tab=descarregues",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-022",
+      "city": "Badalona",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.gob.es/es/iniciativas/open-data-badalona",
+      "portal_verification": "national_directory_lead",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided. This is the national directory entry, not a direct municipal data file.",
+      "source_urls": [
+        "https://datos.gob.es/es/iniciativas/open-data-badalona",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-023",
+      "city": "Sabadell",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "SAB-POP",
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "SAB-POP"
+      ],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://opendata.sabadell.cat/inici/fitxes-cataleg?cod=OD-%2CCSV&title=Dades+en+format+CSV",
+      "portal_verification": "official_listing_access_issue",
+      "notes": "Only catalog-level local dataset listings verified; exports need follow-up. CSV-filtered listing verified in search; direct access subsequently timed out.",
+      "source_urls": [
+        "https://opendata.sabadell.cat/inici/fitxes-cataleg?cod=OD-%2CCSV&title=Dades+en+format+CSV",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-024",
+      "city": "Oviedo",
+      "autonomous_community": "Principado de Asturias",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-025",
+      "city": "Cartagena",
+      "autonomous_community": "Región de Murcia",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "CAR-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "CAR-SPORT"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datosabiertos.regiondemurcia.es/admin/dataset/?organization=ayuntamiento-de-cartagena",
+      "portal_verification": "municipal_catalog_hosted_regionally",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://datosabiertos.regiondemurcia.es/admin/dataset/?organization=ayuntamiento-de-cartagena",
+        "https://datosabiertos.regiondemurcia.es/admin/dataset/listado-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-026",
+      "city": "Jerez de la Frontera",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-027",
+      "city": "Pamplona",
+      "autonomous_community": "Comunidad Foral de Navarra",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "PAM-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "PAM-BUDGET"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://www.pamplona.es/ayuntamiento/varios/open-data-ayuntamiento-de-pamplona",
+      "portal_verification": "official_portal_observed",
+      "notes": "Only catalog-level local dataset listings verified; exports need follow-up.",
+      "source_urls": [
+        "https://www.pamplona.es/ayuntamiento/varios/open-data-ayuntamiento-de-pamplona",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-028",
+      "city": "Móstoles",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-029",
+      "city": "Almería",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-030",
+      "city": "Santa Cruz de Tenerife",
+      "autonomous_community": "Canarias",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://www.santacruzdetenerife.es/opendata/dataset/contenedores-rrsu",
+      "portal_verification": "official_directory_lead_access_unconfirmed",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists. FEMP lists this waste-container dataset; format and payload were not recovered.",
+      "source_urls": [
+        "https://datosabiertosfemp.es/frontend/web/index.php?r=dataset/index_ejemplos&sort=-caso_uso_2_entidad",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-031",
+      "city": "Alcalá de Henares",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "ALC-PARKING",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "ALC-PARKING"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://opendata.ayto-alcaladehenares.es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://opendata.ayto-alcaladehenares.es/",
+        "https://opendata.ayto-alcaladehenares.es/dataset/parkings",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-032",
+      "city": "Leganés",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-033",
+      "city": "Getafe",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://gobiernoabierto.getafe.es/datos",
+      "portal_verification": "official_directory_lead_access_unconfirmed",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists. Budget/procurement leads listed by FEMP; row exports not verified.",
+      "source_urls": [
+        "https://datosabiertosfemp.es/frontend/web/index.php?r=entidades/index",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-034",
+      "city": "Fuenlabrada",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "FUE-WATER",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "FUE-WATER"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datosabiertos.ayto-fuenlabrada.es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://datosabiertos.ayto-fuenlabrada.es/",
+        "https://datosabiertos.ayto-fuenlabrada.es/ro/dataset/calidad-del-agua",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-035",
+      "city": "Donostia/San Sebastián",
+      "autonomous_community": "Euskadi",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "DON-ADDRESSES",
+        "EUS-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "DON-ADDRESSES"
+      ],
+      "regional_dataset_ids": [
+        "EUS-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://www.donostia.eus/datosabiertos/catalogo",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://www.donostia.eus/datosabiertos/catalogo",
+        "https://www.donostia.eus/datosabiertos/catalogo/direcciones_activas",
+        "https://opendata.euskadi.eus/catalogo/-/censo-de-instalaciones-deportivas-de-euskadi/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-036",
+      "city": "Castelló de la Plana",
+      "autonomous_community": "Comunitat Valenciana",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "VAL-SCHOOLS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "VAL-SCHOOLS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://dadesobertes.gva.es/es/dataset/edu-centros",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-037",
+      "city": "Burgos",
+      "autonomous_community": "Castilla y León",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CYL-MONUMENTS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CYL-MONUMENTS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://analisis.datosabiertos.jcyl.es/explore/dataset/relacion-monumentos/information/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-038",
+      "city": "Albacete",
+      "autonomous_community": "Castilla-La Mancha",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-039",
+      "city": "Santander",
+      "autonomous_community": "Cantabria",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "SAN-GTFS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "SAN-GTFS"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.santander.es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://datos.santander.es/",
+        "https://datos.santander.es/dataset/?id=programacion-tus",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-040",
+      "city": "Alcorcón",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-041",
+      "city": "San Cristóbal de La Laguna",
+      "autonomous_community": "Canarias",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-042",
+      "city": "Marbella",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-043",
+      "city": "Logroño",
+      "autonomous_community": "La Rioja",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "LOG-METEO",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "LOG-METEO"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://opendata.logrono.es/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://opendata.logrono.es/",
+        "https://opendata.logrono.es/dataset/estaciones-meteo-90-dias",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-044",
+      "city": "Badajoz",
+      "autonomous_community": "Extremadura",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "http://datos.aytobadajoz.es",
+      "portal_verification": "official_directory_lead_access_unconfirmed",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists. FEMP portal lead; direct access was not confirmed.",
+      "source_urls": [
+        "https://datosabiertosfemp.es/frontend/web/index.php?r=entidades/index",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-045",
+      "city": "Lleida",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://seu-e.cat/ca/web/lleida/dades-obertes",
+      "portal_verification": "official_portal_observed",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://seu-e.cat/ca/web/lleida/dades-obertes",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-046",
+      "city": "Huelva",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-047",
+      "city": "Salamanca",
+      "autonomous_community": "Castilla y León",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CYL-MONUMENTS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CYL-MONUMENTS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://analisis.datosabiertos.jcyl.es/explore/dataset/relacion-monumentos/information/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-048",
+      "city": "Tarragona",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://seu-e.cat/ca/web/tarragona/dades-obertes",
+      "portal_verification": "official_portal_observed",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://seu-e.cat/ca/web/tarragona/dades-obertes",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-049",
+      "city": "Dos Hermanas",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-050",
+      "city": "Torrejón de Ardoz",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-051",
+      "city": "Mataró",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://seu-e.cat/ca/web/mataro/dades-obertes",
+      "portal_verification": "official_portal_observed",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://seu-e.cat/ca/web/mataro/dades-obertes",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-052",
+      "city": "Parla",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-053",
+      "city": "León",
+      "autonomous_community": "Castilla y León",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CYL-MONUMENTS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CYL-MONUMENTS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://analisis.datosabiertos.jcyl.es/explore/dataset/relacion-monumentos/information/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-054",
+      "city": "Alcobendas",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "ALB-METRO",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "ALB-METRO"
+      ],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.alcobendas.org/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://datos.alcobendas.org/",
+        "https://datos.alcobendas.org/dataset/paradas-de-metro",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-055",
+      "city": "Algeciras",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-056",
+      "city": "Santa Coloma de Gramenet",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://seu-e.cat/ca/web/santacolomadegramenet/dades-obertes",
+      "portal_verification": "official_portal_observed",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://seu-e.cat/ca/web/santacolomadegramenet/dades-obertes",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-057",
+      "city": "Cádiz",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-058",
+      "city": "Jaén",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-059",
+      "city": "Reus",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://opendata.reus.cat/",
+      "portal_verification": "official_portal_observed",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://opendata.reus.cat/",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-060",
+      "city": "Roquetas de Mar",
+      "autonomous_community": "Andalucía",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "AND-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "AND-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-061",
+      "city": "Girona",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "city_specific_dataset_identified",
+      "dataset_ids": [
+        "GIR-PERMITS",
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [
+        "GIR-PERMITS"
+      ],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://www.girona.cat/opendata/",
+      "portal_verification": "official_portal_observed",
+      "notes": "Dataset page, distribution link or API documentation found; see per-dataset caveats.",
+      "source_urls": [
+        "https://www.girona.cat/opendata/",
+        "https://www.girona.cat/opendata/dataset/llicencies-d-obra",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-062",
+      "city": "Ourense",
+      "autonomous_community": "Galicia",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-063",
+      "city": "Torrevieja",
+      "autonomous_community": "Comunitat Valenciana",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "VAL-SCHOOLS",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "VAL-SCHOOLS"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://dadesobertes.gva.es/es/dataset/edu-centros",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-064",
+      "city": "Telde",
+      "autonomous_community": "Canarias",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-065",
+      "city": "Barakaldo",
+      "autonomous_community": "Euskadi",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "EUS-SPORT",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "EUS-SPORT"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://opendata.euskadi.eus/catalogo/-/censo-de-instalaciones-deportivas-de-euskadi/",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-066",
+      "city": "Lugo",
+      "autonomous_community": "Galicia",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-067",
+      "city": "Santiago de Compostela",
+      "autonomous_community": "Galicia",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.santiagodecompostela.gal/catalogo/gl/dataset/axenda-cultural",
+      "portal_verification": "official_directory_lead_access_unconfirmed",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists. FEMP cultural agenda lead; direct access timed out and format was not verified.",
+      "source_urls": [
+        "https://datosabiertosfemp.es/frontend/web/index.php?r=dataset/index_ejemplos&sort=-caso_uso_2_entidad",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-068",
+      "city": "Rivas-Vaciamadrid",
+      "autonomous_community": "Comunidad de Madrid",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-069",
+      "city": "Sant Cugat del Vallès",
+      "autonomous_community": "Catalunya",
+      "coverage_type": "regional_dataset_requires_city_filter",
+      "dataset_ids": [
+        "CAT-BUDGET",
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [
+        "CAT-BUDGET"
+      ],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes",
+      "portal_verification": "official_portal_observed",
+      "notes": "No municipality-specific export verified; regional data plus INE baseline provided.",
+      "source_urls": [
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes",
+        "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-070",
+      "city": "Lorca",
+      "autonomous_community": "Región de Murcia",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "https://datos.lorca.es",
+      "portal_verification": "official_directory_lead_access_unconfirmed",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists. FEMP portal lead; direct access timed out.",
+      "source_urls": [
+        "https://datosabiertosfemp.es/frontend/web/index.php?r=entidades/index",
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-071",
+      "city": "Toledo",
+      "autonomous_community": "Castilla-La Mancha",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-072",
+      "city": "Mérida",
+      "autonomous_community": "Extremadura",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-073",
+      "city": "Ceuta",
+      "autonomous_community": "Ceuta",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-074",
+      "city": "Melilla",
+      "autonomous_community": "Melilla",
+      "coverage_type": "national_baseline_only",
+      "dataset_ids": [
+        "ES-POP"
+      ],
+      "city_specific_dataset_ids": [],
+      "regional_dataset_ids": [],
+      "baseline_dataset_id": "ES-POP",
+      "portal_url": "",
+      "portal_verification": "not_verified",
+      "notes": "No suitable local or regional dataset verified in this pass. INE baseline only; this is a coverage gap, not proof that none exists.",
+      "source_urls": [
+        "https://www.ine.es/jaxiT3/Tabla.htm?t=68065"
+      ],
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "datasets": [
+    {
+      "dataset_id": "ES-POP",
+      "title": "Population by municipality and sex (INE table 68065)",
+      "cities_covered": [
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Zaragoza",
+        "Sevilla",
+        "Málaga",
+        "Murcia",
+        "Palma",
+        "Las Palmas de Gran Canaria",
+        "Alicante",
+        "Bilbao",
+        "Córdoba",
+        "Valladolid",
+        "Vigo",
+        "L’Hospitalet de Llobregat",
+        "Gijón",
+        "Vitoria-Gasteiz",
+        "A Coruña",
+        "Elche",
+        "Granada",
+        "Terrassa",
+        "Badalona",
+        "Sabadell",
+        "Oviedo",
+        "Cartagena",
+        "Jerez de la Frontera",
+        "Pamplona",
+        "Móstoles",
+        "Almería",
+        "Santa Cruz de Tenerife",
+        "Alcalá de Henares",
+        "Leganés",
+        "Getafe",
+        "Fuenlabrada",
+        "Donostia/San Sebastián",
+        "Castelló de la Plana",
+        "Burgos",
+        "Albacete",
+        "Santander",
+        "Alcorcón",
+        "San Cristóbal de La Laguna",
+        "Marbella",
+        "Logroño",
+        "Badajoz",
+        "Lleida",
+        "Huelva",
+        "Salamanca",
+        "Tarragona",
+        "Dos Hermanas",
+        "Torrejón de Ardoz",
+        "Mataró",
+        "Parla",
+        "León",
+        "Alcobendas",
+        "Algeciras",
+        "Santa Coloma de Gramenet",
+        "Cádiz",
+        "Jaén",
+        "Reus",
+        "Roquetas de Mar",
+        "Girona",
+        "Ourense",
+        "Torrevieja",
+        "Telde",
+        "Barakaldo",
+        "Lugo",
+        "Santiago de Compostela",
+        "Rivas-Vaciamadrid",
+        "Sant Cugat del Vallès",
+        "Lorca",
+        "Toledo",
+        "Mérida",
+        "Ceuta",
+        "Melilla"
+      ],
+      "publisher": "Instituto Nacional de Estadística",
+      "publisher_level": "national",
+      "topic": "Demographics",
+      "formats": [
+        "JSON"
+      ],
+      "recommended_format": "JSON",
+      "landing_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=68065",
+      "direct_data_url": "",
+      "api_url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/68065?nult=1",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Annual census table. Latest period must be read from returned observations; nult=1 requests the latest observation per series.",
+      "city_filter": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "verification_status": "documented_api_not_payload_tested",
+      "format_evidence": "INE table plus official JSON API documentation",
+      "priority": "baseline",
+      "access_notes": "Common baseline for all 74 cities. URL is constructed from the official DATOS_TABLA pattern, not a successfully parsed response. National dataset, not 74 separate municipal feeds.",
+      "source_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=68065 | https://www.ine.es/dyngs/DAB/index.htm?cid=1102",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "AND-SPORT",
+      "title": "Andalucía sports facility census",
+      "cities_covered": [
+        "Sevilla",
+        "Málaga",
+        "Córdoba",
+        "Granada",
+        "Jerez de la Frontera",
+        "Almería",
+        "Marbella",
+        "Huelva",
+        "Dos Hermanas",
+        "Algeciras",
+        "Cádiz",
+        "Jaén",
+        "Roquetas de Mar"
+      ],
+      "publisher": "Junta de Andalucía",
+      "publisher_level": "regional",
+      "topic": "Public facilities",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+      "direct_data_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/b2e536c3-9e11-4d0d-ba47-ef92c1edddc0/resource/8e8e1b8f-6626-4a0b-93f8-9c99c4340797/download/censo_instalaciones_deportivas.csv",
+      "api_url": "",
+      "license": "CC BY 4.0",
+      "license_status": "explicit",
+      "update_notes": "Catalog metadata last modified 2021-07-01; treat freshness as unconfirmed.",
+      "city_filter": "Filter municipio and provincia; confirm that the selected city has records.",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "historical_or_stale",
+      "access_notes": "Facility type, ownership and sports spaces. Regional coverage is not a guarantee of a populated row for every city.",
+      "source_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/censo-de-instalaciones-deportivas",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "VAL-SCHOOLS",
+      "title": "Comunitat Valenciana educational centres",
+      "cities_covered": [
+        "Valencia",
+        "Alicante",
+        "Elche",
+        "Castelló de la Plana",
+        "Torrevieja"
+      ],
+      "publisher": "Generalitat Valenciana",
+      "publisher_level": "regional",
+      "topic": "Education",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://dadesobertes.gva.es/es/dataset/edu-centros",
+      "direct_data_url": "https://dadesobertes.gva.es/dataset/68eb1d94-76d3-4305-8507-e1aab7717d0e/resource/1aa53c3a-4639-41aa-ac85-d58254c428c0/download/centros-docentes-de-la-comunitat-valenciana.csv",
+      "api_url": "",
+      "license": "Creative Commons Attribution; version not confirmed",
+      "license_status": "explicit_version_unspecified",
+      "update_notes": "Publisher states weekly updates.",
+      "city_filter": "Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "School code, type, postal code, locality, province, latitude and longitude.",
+      "source_url": "https://dadesobertes.gva.es/es/dataset/edu-centros",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "CAT-BUDGET",
+      "title": "Catalan local government budgets: economic and programme classifications",
+      "cities_covered": [
+        "Barcelona",
+        "L’Hospitalet de Llobregat",
+        "Terrassa",
+        "Badalona",
+        "Sabadell",
+        "Lleida",
+        "Tarragona",
+        "Mataró",
+        "Santa Coloma de Gramenet",
+        "Reus",
+        "Girona",
+        "Sant Cugat del Vallès"
+      ],
+      "publisher": "Generalitat de Catalunya / Consorci AOC",
+      "publisher_level": "regional",
+      "topic": "Public finance",
+      "formats": [
+        "JSON",
+        "CSV"
+      ],
+      "recommended_format": "JSON",
+      "landing_url": "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+      "direct_data_url": "",
+      "api_url": "https://dadesobertes.seu-e.cat/api/action/datastore_search?resource_id=595f8620-7a3c-4e38-8be2-7cffa744cd44",
+      "license": "CC0",
+      "license_status": "explicit",
+      "update_notes": "Annual. Catalog metadata updated 2026-10-05; first published 2023-12-19. Read any_exercici for actual observation years.",
+      "city_filter": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "verification_status": "documented_api_not_payload_tested",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "Documented Sant Cugat filter: filters={\"CODI_ENS\":\"820550006\"}. Use API field metadata to confirm exact key casing. Values include revenue/expense, account classification and amount. Paginate datastore_search.",
+      "source_url": "https://seu-e.cat/ca/web/santcugatdelvalles/dades-obertes/-/dadesobertes/dataset/48265d99-f8b8-4a63-9704-c30423fa5c6e",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "EUS-SPORT",
+      "title": "Euskadi sports facility census",
+      "cities_covered": [
+        "Bilbao",
+        "Vitoria-Gasteiz",
+        "Donostia/San Sebastián",
+        "Barakaldo"
+      ],
+      "publisher": "Gobierno Vasco / Eusko Jaurlaritza",
+      "publisher_level": "regional",
+      "topic": "Public facilities",
+      "formats": [
+        "XLSX",
+        "JSON",
+        "GeoJSON"
+      ],
+      "recommended_format": "XLSX",
+      "landing_url": "https://opendata.euskadi.eus/catalogo/-/censo-de-instalaciones-deportivas-de-euskadi/",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Publisher reuse terms; review linked legal notice",
+      "license_status": "custom_terms",
+      "update_notes": "Monthly; catalog coverage end 2026-09-30.",
+      "city_filter": "Select municipality or spatially intersect facilities with the municipality boundary.",
+      "verification_status": "access_issue_alternative_exports_listed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "access_review",
+      "access_notes": "The advertised GeoJSON link returned 404 during checking. XLSX and JSON alternatives are listed, but were not parsed or validated. Do not treat this as a confirmed working GeoJSON feed.",
+      "source_url": "https://opendata.euskadi.eus/catalogo/-/censo-de-instalaciones-deportivas-de-euskadi/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "CYL-MONUMENTS",
+      "title": "Castilla y León tourism monument inventory",
+      "cities_covered": [
+        "Valladolid",
+        "Burgos",
+        "Salamanca",
+        "León"
+      ],
+      "publisher": "Junta de Castilla y León",
+      "publisher_level": "regional",
+      "topic": "Culture and tourism",
+      "formats": [
+        "JSON"
+      ],
+      "recommended_format": "JSON",
+      "landing_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/relacion-monumentos/information/",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Publisher states daily updates Monday to Friday.",
+      "city_filter": "Filter the published municipality/locality and province fields; inspect the schema first.",
+      "verification_status": "api_link_listed_not_payload_tested",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "review",
+      "access_notes": "Dataset ID relacion-monumentos. API and export interfaces exist, but JavaScript prevented verification of an exact downloadable CSV endpoint. Use the API tab; a CSV URL is deliberately not guessed.",
+      "source_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/relacion-monumentos/information/ | https://analisis.datosabiertos.jcyl.es/explore/dataset/relacion-monumentos/export/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "BAL-GTFS",
+      "title": "Mallorca interurban public transport timetable (TIB / CTM)",
+      "cities_covered": [
+        "Palma"
+      ],
+      "publisher": "Consorci de Transports de Mallorca",
+      "publisher_level": "regional",
+      "topic": "Public transport",
+      "formats": [
+        "GTFS ZIP"
+      ],
+      "recommended_format": "GTFS ZIP",
+      "landing_url": "https://www.tib.org/es/sobre-ctm/portal-de-transparencia/datos-abiertos",
+      "direct_data_url": "https://www.tib.org/documents/20124/478141/ctm-mallorca-es.zip/8481f8a8-7907-5118-4934-5b428b458ae7?t=1791371682201",
+      "api_url": "",
+      "license": "CC BY 4.0",
+      "license_status": "explicit",
+      "update_notes": "Current feed linked by publisher; verify feed_info and calendar validity after extraction.",
+      "city_filter": "Select Palma stops and related routes/trips; regional interurban network, not a substitute for the entire EMT Palma city network.",
+      "verification_status": "zip_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "GTFS contains structured text tables for stops, routes, trips and scheduled times. Static schedules, not real-time vehicle positions.",
+      "source_url": "https://www.tib.org/es/sobre-ctm/portal-de-transparencia/datos-abiertos",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "MAD-AIR",
+      "title": "Madrid hourly air quality, historical archive since 2001",
+      "cities_covered": [
+        "Madrid"
+      ],
+      "publisher": "Ayuntamiento de Madrid",
+      "publisher_level": "municipal",
+      "topic": "Air quality",
+      "formats": [
+        "CSV",
+        "JSON",
+        "XML",
+        "ZIP"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datos.madrid.es/dataset/201200-0-calidad-aire-horario",
+      "direct_data_url": "https://datos.madrid.es/dataset/201200-0-calidad-aire-horario/resource/201200-1-calidad-aire-horario-csv/download/201200_20260928_151412.csv",
+      "api_url": "",
+      "license": "CC BY 4.0",
+      "license_status": "explicit",
+      "update_notes": "Monthly. Updated 2026-09-28; coverage through 2026-08-31. The linked CSV covers 2025 onward; older years have separate archives.",
+      "city_filter": "",
+      "verification_status": "download_link_observed_not_payload_tested",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "The timestamped file URL can change after refresh; retain the landing page for resource discovery. Check station and pollutant codes, units and validity flags.",
+      "source_url": "https://datos.madrid.es/dataset/201200-0-calidad-aire-horario | https://datos.gob.es/es/catalogo/l01280796-calidad-del-aire-datos-horarios-desde-2001",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "BCN-TRANSPORT",
+      "title": "Barcelona transport facilities inventory",
+      "cities_covered": [
+        "Barcelona"
+      ],
+      "publisher": "Ajuntament de Barcelona",
+      "publisher_level": "municipal",
+      "topic": "Public transport",
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://portaldades.ajuntament.barcelona.cat/microdades/8b5b8edb-28fd-4eb2-a936-94a116a1b5ad",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "CC BY 4.0",
+      "license_status": "explicit",
+      "update_notes": "Published 2026-07-16, but the observed dataset refers to 2021. Do not equate publication date with data freshness.",
+      "city_filter": "",
+      "verification_status": "format_verified_export_requires_portal",
+      "format_evidence": "Official portal indexed dataset description",
+      "priority": "historical_or_stale",
+      "access_notes": "Look for opendatabcn_varis-transports-csv.csv or opendatabcn_varis-transports.json. The portal requires JavaScript for the export controls.",
+      "source_url": "https://portaldades.ajuntament.barcelona.cat/microdades/8b5b8edb-28fd-4eb2-a936-94a116a1b5ad",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "BCN-PORT",
+      "title": "Port of Barcelona ship departures, 2026",
+      "cities_covered": [
+        "Barcelona"
+      ],
+      "publisher": "Autoritat Portuària de Barcelona",
+      "publisher_level": "port_authority",
+      "topic": "Maritime transport",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datos.gob.es/es/catalogo/ea0001302-escalas-salidas1",
+      "direct_data_url": "https://opendata.portdebarcelona.cat/dataset/d3c49461-db59-4b7d-a81a-d6d7d9b9d64e/resource/ff932739-0958-4bf9-88c1-dcf88e278c9d/download/escales_sortides_2026.csv",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Annual 2026 resource listed; update cadence and completeness not independently confirmed.",
+      "city_filter": "",
+      "verification_status": "download_link_observed_not_payload_tested",
+      "format_evidence": "National government catalog distribution",
+      "priority": "review",
+      "access_notes": "Port authority data, not municipal transport data. Separate resources exist for other years.",
+      "source_url": "https://datos.gob.es/es/catalogo/ea0001302-escalas-salidas1",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "VLC-GREEN",
+      "title": "Valencia gardens and green spaces",
+      "cities_covered": [
+        "Valencia"
+      ],
+      "publisher": "Ajuntament de València",
+      "publisher_level": "municipal",
+      "topic": "Parks and environment",
+      "formats": [
+        "CSV",
+        "JSON",
+        "SHP",
+        "KML",
+        "GML"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://opendata.vlci.valencia.es/dataset/gardens-and-green-spaces",
+      "direct_data_url": "https://geoportal.valencia.es/apps/OpenData/MedioAmbiente/JARD_ESP_VERDES_ACT.csv",
+      "api_url": "",
+      "license": "CC BY 4.0",
+      "license_status": "explicit",
+      "update_notes": "No reliable last-observation date seen.",
+      "city_filter": "",
+      "verification_status": "advertised_csv_returned_404",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "access_review",
+      "access_notes": "Location, neighbourhood and garden type. The advertised CSV returned 404 on checking; JSON and GIS alternatives are listed but not confirmed working. Use VAL-SCHOOLS as a different-topic fallback, not as a replacement for garden data.",
+      "source_url": "https://opendata.vlci.valencia.es/dataset/gardens-and-green-spaces",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "ZGZ-MONUMENTS",
+      "title": "Zaragoza monuments with opening information and coordinates",
+      "cities_covered": [
+        "Zaragoza"
+      ],
+      "publisher": "Ayuntamiento de Zaragoza",
+      "publisher_level": "municipal",
+      "topic": "Culture and tourism",
+      "formats": [
+        "JSON",
+        "CSV",
+        "GeoJSON",
+        "XML"
+      ],
+      "recommended_format": "JSON",
+      "landing_url": "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest",
+      "direct_data_url": "",
+      "api_url": "https://www.zaragoza.es/sede/servicio/monumento.json?rows=100&fl=title,horario,geometry",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "API documentation verified; individual record freshness not confirmed.",
+      "city_filter": "",
+      "verification_status": "documented_api_not_payload_tested",
+      "format_evidence": "Official API documentation with example response",
+      "priority": "start_here",
+      "access_notes": "Example returns only up to 100 rows. Paginate using start/rows and totalCount. Coordinates default to UTM30; documentation shows srsname=wgs84 for longitude/latitude. Registration is described as optional.",
+      "source_url": "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "ZGZ-EMISSIONS",
+      "title": "Zaragoza greenhouse gas inventory by year, district and sector",
+      "cities_covered": [
+        "Zaragoza"
+      ],
+      "publisher": "Ayuntamiento de Zaragoza",
+      "publisher_level": "municipal",
+      "topic": "Emissions",
+      "formats": [
+        "JSON"
+      ],
+      "recommended_format": "JSON",
+      "landing_url": "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest",
+      "direct_data_url": "",
+      "api_url": "https://www.zaragoza.es/sede/servicio/inventario-emisiones/gases-efecto-invernadero-gei/Zaragoza/por-anyo?sector=ResidentialBuildings",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Documentation examples include 2019, 2021 and 2023; query the years endpoint to discover available inventory years.",
+      "city_filter": "",
+      "verification_status": "documented_api_not_payload_tested",
+      "format_evidence": "Official API documentation with example response",
+      "priority": "review",
+      "access_notes": "The linked query is a residential-buildings example, not the full inventory. Use documented district and sector endpoints to enumerate dimensions; keep pollutant units and inventory scopes separate.",
+      "source_url": "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "MAL-BINS",
+      "title": "Málaga municipal solid waste container locations",
+      "cities_covered": [
+        "Málaga"
+      ],
+      "publisher": "Ayuntamiento de Málaga",
+      "publisher_level": "municipal",
+      "topic": "Waste and municipal assets",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datosabiertos.malaga.eu/dataset/contenedores-para-residuos-solidos-urbanos/resource/8a7f9d80-c7d0-45de-8583-f3fb91eb1928",
+      "direct_data_url": "https://datosabiertos.malaga.eu/recursos/ambiente/limasa/da_rsu-4326.csv",
+      "api_url": "",
+      "license": "CC BY 4.0",
+      "license_status": "explicit",
+      "update_notes": "Resource date observed 2025-09-17; some catalog metadata dates back to 2017.",
+      "city_filter": "",
+      "verification_status": "download_link_observed_not_payload_tested",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "WGS84 / EPSG:4326 export. Confirm coordinate column names and axis order before ingestion.",
+      "source_url": "https://datosabiertos.malaga.eu/dataset/contenedores-para-residuos-solidos-urbanos/resource/8a7f9d80-c7d0-45de-8583-f3fb91eb1928",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "MUR-VISITORS",
+      "title": "Murcia overnight visitor statistics",
+      "cities_covered": [
+        "Murcia"
+      ],
+      "publisher": "Ayuntamiento de Murcia",
+      "publisher_level": "municipal",
+      "topic": "Tourism",
+      "formats": [
+        "JSON"
+      ],
+      "recommended_format": "JSON",
+      "landing_url": "https://transparencia.mimurcia.murcia.es/ckan-dataset/ee7b3bed-2adf-4fab-932c-ef132fbc6b06",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Annual; catalog date observed 2023-09-21. Current observation period not confirmed.",
+      "city_filter": "",
+      "verification_status": "landing_and_format_verified",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "historical_or_stale",
+      "access_notes": "JSON distribution listed; follow its resource link from the CKAN-backed municipal transparency portal. Reuse license was not clearly specified.",
+      "source_url": "https://transparencia.mimurcia.murcia.es/ckan-dataset/ee7b3bed-2adf-4fab-932c-ef132fbc6b06",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "LPA-STOPS",
+      "title": "Guaguas Municipales bus stops",
+      "cities_covered": [
+        "Las Palmas de Gran Canaria"
+      ],
+      "publisher": "Ayuntamiento de Las Palmas de Gran Canaria / Guaguas Municipales",
+      "publisher_level": "municipal_operator",
+      "topic": "Public transport",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datosabiertos.laspalmasgc.es/data/",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Not confirmed.",
+      "city_filter": "",
+      "verification_status": "catalog_listing_only",
+      "format_evidence": "Official catalog listing",
+      "priority": "access_review",
+      "access_notes": "Catalog title: Guaguas Municipales Paradas. A dataset-specific resource URL was not recovered; portal returned a gateway error during direct access. Do not treat the catalog homepage as a CSV URL.",
+      "source_url": "https://datosabiertos.laspalmasgc.es/data/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "BIO-PARCELS",
+      "title": "Bilbao cadastral parcels",
+      "cities_covered": [
+        "Bilbao"
+      ],
+      "publisher": "Diputación Foral de Bizkaia / Open Data Bizkaia",
+      "publisher_level": "provincial",
+      "topic": "Land and property",
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://www.opendatabizkaia.eus/es/catalogo/parcelario-catastral-bilbao",
+      "direct_data_url": "https://www.opendatabizkaia.eus/es/datastore/dump/524a2611-f96e-4fcc-b161-8483ffe9936e/parcelario-catastral-bilbao?format=csv",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Monthly; national catalog metadata dated 2026-06-11.",
+      "city_filter": "",
+      "verification_status": "download_link_observed_not_payload_tested",
+      "format_evidence": "National catalog distribution",
+      "priority": "review",
+      "access_notes": "Provincial publisher; dataset is specifically scoped to Bilbao. JSON variant is advertised using format=json. Confirm geometry encoding and coordinate system from the schema.",
+      "source_url": "https://datos.gob.es/ca/catalogo/l02000048-parcelario-catastral-bilbao",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "COR-CRASHES",
+      "title": "Córdoba road traffic crashes",
+      "cities_covered": [
+        "Córdoba"
+      ],
+      "publisher": "Ayuntamiento de Córdoba",
+      "publisher_level": "municipal",
+      "topic": "Road safety",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datosabiertos.cordoba.es/ckan/dataset/accidentes-de-trafico",
+      "direct_data_url": "https://datosabiertos.cordoba.es/ckan/dataset/473c44c3-eecb-4329-8295-f681bd22bcb1/resource/337bc929-d72a-408b-a6ba-b6f48e8dcb08/download/siniestros-viales-2023.csv",
+      "api_url": "",
+      "license": "No license specified in the observed dataset metadata",
+      "license_status": "not_confirmed",
+      "update_notes": "Complete annual resources listed for 2019–2023; the 2024 resource covers only through June. Metadata updated 2024-09-23.",
+      "city_filter": "",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "license_review",
+      "access_notes": "Direct URL selects 2023. Machine readable does not itself establish permission for unrestricted reuse; clarify licensing before redistribution.",
+      "source_url": "https://datosabiertos.cordoba.es/ckan/dataset/accidentes-de-trafico",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "HOS-BICIBOX",
+      "title": "L’Hospitalet BiciBox bicycle parking locations and occupancy",
+      "cities_covered": [
+        "L’Hospitalet de Llobregat"
+      ],
+      "publisher": "Ajuntament de L’Hospitalet de Llobregat / Consorci AOC",
+      "publisher_level": "municipal",
+      "topic": "Cycling and parking",
+      "formats": [
+        "JSON",
+        "CSV"
+      ],
+      "recommended_format": "JSON",
+      "landing_url": "https://seu-e.cat/ca/web/hospitaletdellobregat/dades-obertes/-/dadesobertes/dataset/e1bcf33c-3228-4b65-af1b-f0a0d017ef84",
+      "direct_data_url": "",
+      "api_url": "https://dadesobertes.seu-e.cat/api/action/datastore_search?resource_id=e0c9410e-891f-4f83-950e-efa0d3cfd527",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Catalog date observed 2026-10-07; actual occupancy timestamp and refresh interval must be checked.",
+      "city_filter": "",
+      "verification_status": "documented_api_not_payload_tested",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "Use the CSV/JSON data resource, not the separate PDF resource or package_show metadata. Paginate with limit and offset; inspect result.fields.",
+      "source_url": "https://seu-e.cat/ca/web/hospitaletdellobregat/dades-obertes/-/dadesobertes/dataset/e1bcf33c-3228-4b65-af1b-f0a0d017ef84",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "GIJ-AIR",
+      "title": "Gijón air quality measurements from the last week",
+      "cities_covered": [
+        "Gijón"
+      ],
+      "publisher": "Ayuntamiento de Gijón",
+      "publisher_level": "municipal",
+      "topic": "Air quality",
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datos.gijon.es/",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Catalog describes a rolling last-week dataset; exact refresh interval not confirmed.",
+      "city_filter": "",
+      "verification_status": "catalog_listing_only",
+      "format_evidence": "Official catalog listing",
+      "priority": "review",
+      "access_notes": "Select the air-quality last-week dataset from the catalog. Exact dataset/download URL not recovered. Station information is also separately listed.",
+      "source_url": "https://datos.gijon.es/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "VIT-CONTRACTS",
+      "title": "Vitoria-Gasteiz minor public contracts",
+      "cities_covered": [
+        "Vitoria-Gasteiz"
+      ],
+      "publisher": "Ayuntamiento de Vitoria-Gasteiz",
+      "publisher_level": "municipal",
+      "topic": "Procurement",
+      "formats": [
+        "CSV",
+        "ODS"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://www.vitoria-gasteiz.org/wb021/was/contenidoAction.do?idioma=es&uid=app_j34_0009",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Municipal reuse terms; check linked conditions",
+      "license_status": "custom_terms",
+      "update_notes": "Catalog describes quarterly updates with cumulative annual resources.",
+      "city_filter": "",
+      "verification_status": "landing_and_format_verified",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "review",
+      "access_notes": "Choose the required year and its CSV export; dataset landing is HTML, not a file.",
+      "source_url": "https://www.vitoria-gasteiz.org/j34-01w/catalogo/portada?idioma=es&lang=es&locale=es",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "TER-RESTAURANTS",
+      "title": "Terrassa restaurant directory",
+      "cities_covered": [
+        "Terrassa"
+      ],
+      "publisher": "Ajuntament de Terrassa",
+      "publisher_level": "municipal",
+      "topic": "Business and tourism",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://opendata.terrassa.cat/dataset/restaurants",
+      "direct_data_url": "https://opendata.terrassa.cat/dataset/afdbef70-2126-4b1d-b395-51a520332560/resource/527c421a-47b0-43fd-80b2-a0bc8d8cbf30/download/actual_restaurants.csv",
+      "api_url": "",
+      "license": "Creative Commons Attribution; version not confirmed",
+      "license_status": "explicit_version_unspecified",
+      "update_notes": "Monthly according to the national catalog.",
+      "city_filter": "",
+      "verification_status": "download_link_observed_not_payload_tested",
+      "format_evidence": "National government catalog distribution",
+      "priority": "start_here",
+      "access_notes": "",
+      "source_url": "https://datos.gob.es/es/catalogo/l01082798-restaurantes1",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "TER-BUDGET",
+      "title": "Terrassa municipal budgets",
+      "cities_covered": [
+        "Terrassa"
+      ],
+      "publisher": "Ajuntament de Terrassa",
+      "publisher_level": "municipal",
+      "topic": "Public finance",
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://pressupostos.terrassa.cat/descarga-datos",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Download page lists years 2010–2026.",
+      "city_filter": "",
+      "verification_status": "landing_and_format_verified",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "review",
+      "access_notes": "Choose a year and revenue/expenditure export; retain classification codes as strings.",
+      "source_url": "https://pressupostos.terrassa.cat/descarga-datos",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "TER-BOUNDARIES",
+      "title": "Terrassa neighbourhood and administrative boundary layers",
+      "cities_covered": [
+        "Terrassa"
+      ],
+      "publisher": "Ajuntament de Terrassa",
+      "publisher_level": "municipal",
+      "topic": "Boundaries and geography",
+      "formats": [
+        "GeoJSON",
+        "KML",
+        "CSV"
+      ],
+      "recommended_format": "GeoJSON",
+      "landing_url": "https://emap.terrassa.cat/geoPortal/?tab=descarregues",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Not confirmed.",
+      "city_filter": "",
+      "verification_status": "landing_and_format_verified",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "review",
+      "access_notes": "GeoJSON/KML for neighbourhoods, districts, postal-code and census layers; CSV applies to selected street/district tables, not necessarily each boundary layer. Check the CRS: portal notes ETRS89, with KML in WGS84.",
+      "source_url": "https://emap.terrassa.cat/geoPortal/?tab=descarregues",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "SAB-POP",
+      "title": "Sabadell population by district, sex and nationality",
+      "cities_covered": [
+        "Sabadell"
+      ],
+      "publisher": "Ajuntament de Sabadell",
+      "publisher_level": "municipal",
+      "topic": "Demographics",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://opendata.sabadell.cat/inici/fitxes-cataleg?cod=OD-%2CCSV&title=Dades+en+format+CSV",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Select the year explicitly; freshness not confirmed.",
+      "city_filter": "",
+      "verification_status": "catalog_listing_only",
+      "format_evidence": "Official CSV-filtered catalog",
+      "priority": "review",
+      "access_notes": "Dataset is listed among CSV population tables. Download requires selecting the relevant dataset/year. Shared CAT-BUDGET is a separately documented API option.",
+      "source_url": "https://opendata.sabadell.cat/inici/fitxes-cataleg?cod=OD-%2CCSV&title=Dades+en+format+CSV",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "CAR-SPORT",
+      "title": "Cartagena municipal sports facilities",
+      "cities_covered": [
+        "Cartagena"
+      ],
+      "publisher": "Ayuntamiento de Cartagena",
+      "publisher_level": "municipal",
+      "topic": "Public facilities",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datosabiertos.regiondemurcia.es/admin/dataset/listado-de-instalaciones-deportivas",
+      "direct_data_url": "https://www.cartagena.es/api/instalaciones_deportivas/CSV.asp",
+      "api_url": "",
+      "license": "Regional reuse terms linked; license label empty",
+      "license_status": "custom_terms",
+      "update_notes": "Monthly; catalog metadata dated 2026-09-04.",
+      "city_filter": "",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "Cartagena in Spain. Municipality publishes through the Región de Murcia catalog.",
+      "source_url": "https://datosabiertos.regiondemurcia.es/admin/dataset/listado-de-instalaciones-deportivas",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "PAM-BUDGET",
+      "title": "Pamplona municipal budget exports",
+      "cities_covered": [
+        "Pamplona"
+      ],
+      "publisher": "Ayuntamiento de Pamplona",
+      "publisher_level": "municipal",
+      "topic": "Public finance",
+      "formats": [
+        "CSV",
+        "XLS",
+        "XML"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://www.pamplona.es/ayuntamiento/varios/open-data-ayuntamiento-de-pamplona",
+      "direct_data_url": "",
+      "api_url": "",
+      "license": "Conflicting portal-level notices: municipal page CC BY 3.0; national initiative CC0. Check the selected resource.",
+      "license_status": "conflicting_portal_notices",
+      "update_notes": "Mixed historical datasets; select and verify budget year. Other statistics on this page include older 2008–2015 series.",
+      "city_filter": "",
+      "verification_status": "catalog_listing_only",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "license_review",
+      "access_notes": "Portal confirms formats, but a current-year budget file was not independently located. Included as a machine-readable discovery lead, not a fully verified current feed.",
+      "source_url": "https://www.pamplona.es/ayuntamiento/varios/open-data-ayuntamiento-de-pamplona | https://datos.gob.es/es/iniciativas/portal-open-data-ayuntamiento-de-pamplona",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "ALC-PARKING",
+      "title": "Alcalá de Henares public car parks",
+      "cities_covered": [
+        "Alcalá de Henares"
+      ],
+      "publisher": "Ayuntamiento de Alcalá de Henares",
+      "publisher_level": "municipal",
+      "topic": "Parking",
+      "formats": [
+        "CSV",
+        "XLSX"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://opendata.ayto-alcaladehenares.es/dataset/parkings",
+      "direct_data_url": "https://opendata.ayto-alcaladehenares.es/dataset/95ef5f37-d251-4521-910c-9d05040b00f3/resource/423955d2-38eb-41bc-b2e9-5a450a7289da/download/aparcamientos-publicos.csv",
+      "api_url": "",
+      "license": "Open Data Commons Attribution (ODC-BY)",
+      "license_status": "explicit",
+      "update_notes": "Catalog last modification observed 2022-06-29.",
+      "city_filter": "",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "historical_or_stale",
+      "access_notes": "Static car park inventory, not confirmed live space availability.",
+      "source_url": "https://opendata.ayto-alcaladehenares.es/dataset/parkings",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "FUE-WATER",
+      "title": "Fuenlabrada drinking water quality",
+      "cities_covered": [
+        "Fuenlabrada"
+      ],
+      "publisher": "Ayuntamiento de Fuenlabrada",
+      "publisher_level": "municipal",
+      "topic": "Water quality",
+      "formats": [
+        "CSV",
+        "XLSX"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datosabiertos.ayto-fuenlabrada.es/ro/dataset/calidad-del-agua",
+      "direct_data_url": "https://datosabiertos.ayto-fuenlabrada.es/dataset/6afba058-b3ab-4579-af92-592aa4110050/resource/f3461564-b4d1-41b5-bf40-a9eb456c747b/download/261an_1.csv",
+      "api_url": "",
+      "license": "Open Data Commons Attribution (ODC-BY)",
+      "license_status": "explicit",
+      "update_notes": "Catalog last modification observed 2022-07-04.",
+      "city_filter": "",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "historical_or_stale",
+      "access_notes": "The /ro/ path is a portal interface locale, not a statement about the language of the data. Check sampling dates before using as current water-quality evidence.",
+      "source_url": "https://datosabiertos.ayto-fuenlabrada.es/ro/dataset/calidad-del-agua",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "DON-ADDRESSES",
+      "title": "Donostia / San Sebastián active postal addresses",
+      "cities_covered": [
+        "Donostia/San Sebastián"
+      ],
+      "publisher": "Ayuntamiento de Donostia / San Sebastián",
+      "publisher_level": "municipal",
+      "topic": "Addresses and geography",
+      "formats": [
+        "CSV",
+        "GeoJSON"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://www.donostia.eus/datosabiertos/catalogo/direcciones_activas",
+      "direct_data_url": "https://www.donostia.eus/datosabiertos/recursos/direcciones_activas/indarrekohelbideak.csv",
+      "api_url": "",
+      "license": "Portal footer CC BY-SA; version and resource applicability should be checked",
+      "license_status": "portal_notice_only",
+      "update_notes": "Catalog updated 2026-10-04. Description says daily, but frequency metadata says monthly; discrepancy unresolved.",
+      "city_filter": "",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "Address, type, X/Y, neighbourhood, district, census section and cadastral reference. ETRS89 / UTM zone 30N, EPSG:25830. Do not interpret X/Y as longitude/latitude.",
+      "source_url": "https://www.donostia.eus/datosabiertos/catalogo/direcciones_activas",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "SAN-GTFS",
+      "title": "Santander TUS bus schedules",
+      "cities_covered": [
+        "Santander"
+      ],
+      "publisher": "Ayuntamiento de Santander / TUS",
+      "publisher_level": "municipal_operator",
+      "topic": "Public transport",
+      "formats": [
+        "GTFS ZIP",
+        "CSV",
+        "JSON"
+      ],
+      "recommended_format": "GTFS ZIP",
+      "landing_url": "https://datos.santander.es/dataset/?id=programacion-tus",
+      "direct_data_url": "http://datos.santander.es/wp-content/themes/viavansi-ogov-current/cgi-bin/proxy.cgi?url=https%3A%2F%2Fnc.santander.es%2Fpublic.php%2Fdav%2Ffiles%2FwEoXHXJHD99AZPZ%2F%3Faccept%3Dzip",
+      "api_url": "",
+      "license": "CC BY 4.0",
+      "license_status": "explicit",
+      "update_notes": "Schedule feed; verify service calendar after extraction. Catalog frequency labels should not be read as real-time arrivals.",
+      "city_filter": "",
+      "verification_status": "download_link_observed_not_payload_tested",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "GTFS ZIP for the complete timetable; CSV/JSON resources for related timetable tables. Observed publisher download uses an HTTP proxy around an HTTPS target; review transport security before automation.",
+      "source_url": "https://datos.santander.es/dataset/?id=programacion-tus | https://datos.santander.es/resource/?ds=programacion-tus&id=92f4a4e9-6132-4666-b673-aee4524dee3e",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "LOG-METEO",
+      "title": "Logroño measurement station readings, last 90 days",
+      "cities_covered": [
+        "Logroño"
+      ],
+      "publisher": "Ayuntamiento de Logroño",
+      "publisher_level": "municipal",
+      "topic": "Weather and environment",
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://opendata.logrono.es/dataset/estaciones-meteo-90-dias",
+      "direct_data_url": "https://opendata.logrono.es/dataset/a3b924a0-0a3e-4183-927d-03066a816bea/resource/09751bc5-83cb-480f-a128-768f43483782/download/estaciones-meteo-90-dias.csv",
+      "api_url": "",
+      "license": "Not confirmed; review publisher terms",
+      "license_status": "not_confirmed",
+      "update_notes": "Title says rolling 90 days; metadata says annual updates. Inspect observation timestamps before treating it as a live feed.",
+      "city_filter": "",
+      "verification_status": "csv_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "review",
+      "access_notes": "Resolve cadence discrepancy and confirm reuse terms before production use.",
+      "source_url": "https://opendata.logrono.es/dataset/estaciones-meteo-90-dias",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "GIR-PERMITS",
+      "title": "Girona building permits",
+      "cities_covered": [
+        "Girona"
+      ],
+      "publisher": "Ajuntament de Girona",
+      "publisher_level": "municipal",
+      "topic": "Construction and permits",
+      "formats": [
+        "CSV"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://www.girona.cat/opendata/dataset/llicencies-d-obra",
+      "direct_data_url": "https://cdn.girona.cat/umat/Obres2025.csv",
+      "api_url": "",
+      "license": "Municipal reproduction/reuse terms; review dataset terms",
+      "license_status": "custom_terms",
+      "update_notes": "Annual files listed for 2013–2025. Direct URL selects 2025; completeness not independently checked.",
+      "city_filter": "",
+      "verification_status": "file_response_observed_not_parsed",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "start_here",
+      "access_notes": "A dated file is useful for reproducible historical analysis. Do not assume the listed latest year is complete.",
+      "source_url": "https://www.girona.cat/opendata/dataset/llicencies-d-obra",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "dataset_id": "ALB-METRO",
+      "title": "Alcobendas metro stops",
+      "cities_covered": [
+        "Alcobendas"
+      ],
+      "publisher": "Ayuntamiento de Alcobendas; source CRTM",
+      "publisher_level": "municipal",
+      "topic": "Public transport",
+      "formats": [
+        "CSV",
+        "JSON",
+        "XLSX"
+      ],
+      "recommended_format": "CSV",
+      "landing_url": "https://datos.alcobendas.org/dataset/paradas-de-metro",
+      "direct_data_url": "https://datos.alcobendas.org/dataset/33d5f98b-59a5-4d71-842a-82951ad9433b/resource/7241435a-34c6-4f17-94c6-007f079c6d5e/download/stopsmetro.csv",
+      "api_url": "",
+      "license": "Open Data Commons Attribution (ODC-BY)",
+      "license_status": "explicit",
+      "update_notes": "Monthly claimed; catalog metadata observed 2024-10-03.",
+      "city_filter": "",
+      "verification_status": "advertised_csv_returned_403",
+      "format_evidence": "publisher_dataset_page",
+      "priority": "access_review",
+      "access_notes": "403 may reflect host access controls or the research tool, not a permanently unavailable public dataset. Recheck from a normal client; alternative formats are listed.",
+      "source_url": "https://datos.alcobendas.org/dataset/paradas-de-metro",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "city_dataset_links": [
+    {
+      "city_id": "CITY-001",
+      "city": "Madrid",
+      "dataset_id": "MAD-AIR",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-001",
+      "city": "Madrid",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-002",
+      "city": "Barcelona",
+      "dataset_id": "BCN-TRANSPORT",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-002",
+      "city": "Barcelona",
+      "dataset_id": "BCN-PORT",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-002",
+      "city": "Barcelona",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-002",
+      "city": "Barcelona",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-003",
+      "city": "Valencia",
+      "dataset_id": "VLC-GREEN",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-003",
+      "city": "Valencia",
+      "dataset_id": "VAL-SCHOOLS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-003",
+      "city": "Valencia",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-004",
+      "city": "Zaragoza",
+      "dataset_id": "ZGZ-MONUMENTS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-004",
+      "city": "Zaragoza",
+      "dataset_id": "ZGZ-EMISSIONS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-004",
+      "city": "Zaragoza",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-005",
+      "city": "Sevilla",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-005",
+      "city": "Sevilla",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-006",
+      "city": "Málaga",
+      "dataset_id": "MAL-BINS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-006",
+      "city": "Málaga",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-006",
+      "city": "Málaga",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-007",
+      "city": "Murcia",
+      "dataset_id": "MUR-VISITORS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-007",
+      "city": "Murcia",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-008",
+      "city": "Palma",
+      "dataset_id": "BAL-GTFS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Select Palma stops and related routes/trips; regional interurban network, not a substitute for the entire EMT Palma city network.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-008",
+      "city": "Palma",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-009",
+      "city": "Las Palmas de Gran Canaria",
+      "dataset_id": "LPA-STOPS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-009",
+      "city": "Las Palmas de Gran Canaria",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-010",
+      "city": "Alicante",
+      "dataset_id": "VAL-SCHOOLS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-010",
+      "city": "Alicante",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-011",
+      "city": "Bilbao",
+      "dataset_id": "BIO-PARCELS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-011",
+      "city": "Bilbao",
+      "dataset_id": "EUS-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Select municipality or spatially intersect facilities with the municipality boundary.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-011",
+      "city": "Bilbao",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-012",
+      "city": "Córdoba",
+      "dataset_id": "COR-CRASHES",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-012",
+      "city": "Córdoba",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-012",
+      "city": "Córdoba",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-013",
+      "city": "Valladolid",
+      "dataset_id": "CYL-MONUMENTS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter the published municipality/locality and province fields; inspect the schema first.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-013",
+      "city": "Valladolid",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-014",
+      "city": "Vigo",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-015",
+      "city": "L’Hospitalet de Llobregat",
+      "dataset_id": "HOS-BICIBOX",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-015",
+      "city": "L’Hospitalet de Llobregat",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-015",
+      "city": "L’Hospitalet de Llobregat",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-016",
+      "city": "Gijón",
+      "dataset_id": "GIJ-AIR",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-016",
+      "city": "Gijón",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-017",
+      "city": "Vitoria-Gasteiz",
+      "dataset_id": "VIT-CONTRACTS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-017",
+      "city": "Vitoria-Gasteiz",
+      "dataset_id": "EUS-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Select municipality or spatially intersect facilities with the municipality boundary.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-017",
+      "city": "Vitoria-Gasteiz",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-018",
+      "city": "A Coruña",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-019",
+      "city": "Elche",
+      "dataset_id": "VAL-SCHOOLS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-019",
+      "city": "Elche",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-020",
+      "city": "Granada",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-020",
+      "city": "Granada",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-021",
+      "city": "Terrassa",
+      "dataset_id": "TER-RESTAURANTS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-021",
+      "city": "Terrassa",
+      "dataset_id": "TER-BUDGET",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-021",
+      "city": "Terrassa",
+      "dataset_id": "TER-BOUNDARIES",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-021",
+      "city": "Terrassa",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-021",
+      "city": "Terrassa",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-022",
+      "city": "Badalona",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-022",
+      "city": "Badalona",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-023",
+      "city": "Sabadell",
+      "dataset_id": "SAB-POP",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-023",
+      "city": "Sabadell",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-023",
+      "city": "Sabadell",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-024",
+      "city": "Oviedo",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-025",
+      "city": "Cartagena",
+      "dataset_id": "CAR-SPORT",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-025",
+      "city": "Cartagena",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-026",
+      "city": "Jerez de la Frontera",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-026",
+      "city": "Jerez de la Frontera",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-027",
+      "city": "Pamplona",
+      "dataset_id": "PAM-BUDGET",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-027",
+      "city": "Pamplona",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-028",
+      "city": "Móstoles",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-029",
+      "city": "Almería",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-029",
+      "city": "Almería",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-030",
+      "city": "Santa Cruz de Tenerife",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-031",
+      "city": "Alcalá de Henares",
+      "dataset_id": "ALC-PARKING",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-031",
+      "city": "Alcalá de Henares",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-032",
+      "city": "Leganés",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-033",
+      "city": "Getafe",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-034",
+      "city": "Fuenlabrada",
+      "dataset_id": "FUE-WATER",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-034",
+      "city": "Fuenlabrada",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-035",
+      "city": "Donostia/San Sebastián",
+      "dataset_id": "DON-ADDRESSES",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-035",
+      "city": "Donostia/San Sebastián",
+      "dataset_id": "EUS-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Select municipality or spatially intersect facilities with the municipality boundary.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-035",
+      "city": "Donostia/San Sebastián",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-036",
+      "city": "Castelló de la Plana",
+      "dataset_id": "VAL-SCHOOLS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-036",
+      "city": "Castelló de la Plana",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-037",
+      "city": "Burgos",
+      "dataset_id": "CYL-MONUMENTS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter the published municipality/locality and province fields; inspect the schema first.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-037",
+      "city": "Burgos",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-038",
+      "city": "Albacete",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-039",
+      "city": "Santander",
+      "dataset_id": "SAN-GTFS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-039",
+      "city": "Santander",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-040",
+      "city": "Alcorcón",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-041",
+      "city": "San Cristóbal de La Laguna",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-042",
+      "city": "Marbella",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-042",
+      "city": "Marbella",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-043",
+      "city": "Logroño",
+      "dataset_id": "LOG-METEO",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-043",
+      "city": "Logroño",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-044",
+      "city": "Badajoz",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-045",
+      "city": "Lleida",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-045",
+      "city": "Lleida",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-046",
+      "city": "Huelva",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-046",
+      "city": "Huelva",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-047",
+      "city": "Salamanca",
+      "dataset_id": "CYL-MONUMENTS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter the published municipality/locality and province fields; inspect the schema first.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-047",
+      "city": "Salamanca",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-048",
+      "city": "Tarragona",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-048",
+      "city": "Tarragona",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-049",
+      "city": "Dos Hermanas",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-049",
+      "city": "Dos Hermanas",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-050",
+      "city": "Torrejón de Ardoz",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-051",
+      "city": "Mataró",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-051",
+      "city": "Mataró",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-052",
+      "city": "Parla",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-053",
+      "city": "León",
+      "dataset_id": "CYL-MONUMENTS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter the published municipality/locality and province fields; inspect the schema first.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-053",
+      "city": "León",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-054",
+      "city": "Alcobendas",
+      "dataset_id": "ALB-METRO",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-054",
+      "city": "Alcobendas",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-055",
+      "city": "Algeciras",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-055",
+      "city": "Algeciras",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-056",
+      "city": "Santa Coloma de Gramenet",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-056",
+      "city": "Santa Coloma de Gramenet",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-057",
+      "city": "Cádiz",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-057",
+      "city": "Cádiz",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-058",
+      "city": "Jaén",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-058",
+      "city": "Jaén",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-059",
+      "city": "Reus",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-059",
+      "city": "Reus",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-060",
+      "city": "Roquetas de Mar",
+      "dataset_id": "AND-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter municipio and provincia; confirm that the selected city has records.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-060",
+      "city": "Roquetas de Mar",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-061",
+      "city": "Girona",
+      "dataset_id": "GIR-PERMITS",
+      "relationship": "city_specific",
+      "filter_notes": "",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-061",
+      "city": "Girona",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-061",
+      "city": "Girona",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-062",
+      "city": "Ourense",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-063",
+      "city": "Torrevieja",
+      "dataset_id": "VAL-SCHOOLS",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Use localidad and provincia; a municipality may contain several localities, so confirm the geographic mapping.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-063",
+      "city": "Torrevieja",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-064",
+      "city": "Telde",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-065",
+      "city": "Barakaldo",
+      "dataset_id": "EUS-SPORT",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Select municipality or spatially intersect facilities with the municipality boundary.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-065",
+      "city": "Barakaldo",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-066",
+      "city": "Lugo",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-067",
+      "city": "Santiago de Compostela",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-068",
+      "city": "Rivas-Vaciamadrid",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-069",
+      "city": "Sant Cugat del Vallès",
+      "dataset_id": "CAT-BUDGET",
+      "relationship": "regional_filter_required",
+      "filter_notes": "Filter codi_ens / nom_complert. The landing page is a Sant Cugat view of the shared Catalan dataset; the API URL here removes its city filter.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-069",
+      "city": "Sant Cugat del Vallès",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-070",
+      "city": "Lorca",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-071",
+      "city": "Toledo",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-072",
+      "city": "Mérida",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-073",
+      "city": "Ceuta",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "city_id": "CITY-074",
+      "city": "Melilla",
+      "dataset_id": "ES-POP",
+      "relationship": "national_baseline",
+      "filter_notes": "Select the municipality dimension using INE series metadata; preserve official municipality codes as strings.",
+      "checked_on": "2026-10-07"
+    }
+  ],
+  "discovery": [
+    {
+      "name": "Spain national open data catalog",
+      "purpose": "Discover dataset metadata and distribution links across publishers; does not return the underlying dataset rows.",
+      "url": "https://datos.gob.es/es/catalogo",
+      "api_url": "https://datos.gob.es/apidata/catalog/dataset.json",
+      "notes": "Official API documentation: https://datos.gob.es/es/accessible-apidata . Catalog pagination uses _page and _pageSize (maximum 50).",
+      "source_url": "https://datos.gob.es/es/accessible-apidata"
+    },
+    {
+      "name": "FEMP local open data directory",
+      "purpose": "Discover municipal portal and dataset leads; directory membership is not a guarantee of live downloads.",
+      "url": "https://datosabiertosfemp.es/frontend/web/index.php?r=entidades/index",
+      "api_url": "",
+      "notes": "Examples: https://datosabiertosfemp.es/frontend/web/index.php?r=dataset/index_ejemplos&sort=-caso_uso_2_entidad",
+      "source_url": "https://datosabiertosfemp.es/frontend/web/index.php?r=entidades/index"
+    },
+    {
+      "name": "INE JSON API documentation",
+      "purpose": "Fetch observation data from INE tables; unlike catalog APIs, DATOS_TABLA returns statistical series.",
+      "url": "https://www.ine.es/dyngs/DAB/index.htm?cid=1102",
+      "api_url": "",
+      "notes": "Use SERIES_TABLA / metadata to discover filter values; do not invent municipality codes or variable identifiers.",
+      "source_url": "https://www.ine.es/dyngs/DAB/index.htm?cid=1102"
+    },
+    {
+      "name": "CKAN API documentation",
+      "purpose": "Understand metadata discovery versus record retrieval.",
+      "url": "https://docs.ckan.org/en/2.10/api/",
+      "api_url": "",
+      "notes": "package_search/package_show return metadata; datastore_search returns records only for resources with DataStore support. A CKAN portal does not guarantee every resource has a queryable table.",
+      "source_url": "https://docs.ckan.org/en/2.10/api/"
+    },
+    {
+      "name": "Zaragoza REST API",
+      "purpose": "Documented data endpoints with JSON, CSV and GeoJSON response formats.",
+      "url": "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest",
+      "api_url": "https://www.zaragoza.es/sede/servicio/catalogo/api.json",
+      "notes": "The api_url here is catalog metadata. Use dataset endpoints in the Datasets table for actual observations.",
+      "source_url": "https://zaragoza.es/sede/portal/espacio-de-datos/herramientas/api-rest"
+    },
+    {
+      "name": "Madrid regional transport portal (CRTM)",
+      "purpose": "Additional transport discovery lead for Madrid-region municipalities.",
+      "url": "https://data-crtm.opendata.arcgis.com/",
+      "api_url": "",
+      "notes": "Portal observed, but specific transport exports were not verified. Not counted as a dataset in this catalog.",
+      "source_url": "https://data-crtm.opendata.arcgis.com/"
+    },
+    {
+      "name": "Granada provincial catalog",
+      "purpose": "Additional provincial tourism, geography and statistics discovery lead.",
+      "url": "https://catalogo.dipgra.es/es",
+      "api_url": "",
+      "notes": "CSV and GeoJSON examples appear in the catalog. Municipality-level applicability and export payloads were not checked; not counted as a dataset.",
+      "source_url": "https://catalogo.dipgra.es/es"
+    }
+  ]
+}
